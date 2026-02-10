@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cargando...</title>
+    <script>
+        // PEGA AQUÍ TUS 10 LINKS DE GOOGLE FORMS
+        const formularios = [
+            "https://docs.google.com/forms/d/e/1FAIpQLSdXhZ6z0GBAxtTJVLkjwNXf3tCFFaH9mWF4TE-BduQrEhvO2Q/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLSf3KNlqcSgKhbYebm1vgFQgogP5x4wjLagftGqqme1lONLREA/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLSeqezLCQJcNTU3PnUEX8DE_myV6sBzaP0YbGjQrYZ-oYymFTg/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLSdbdf_hNbgA0ElXpFW_7c3oZk0UNhZ7Tad_q0hogb1RzOc56A/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLScf_4t7riwI32XkzqRYxW5VKio8JWLwuON2tqpe2eplVoKwIQ/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLScXIhkahqp7eXCz3ZvQYEU7tC7NUBBM-S8UyNp_yKddoO4JXg/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLSfs8cWWk_s9bJVkKyd-aV28xQ8gm7sxqcLymulXwNeNELuFGQ/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLSeEDQJ9IkLObzCe6bTNwQ0tceo4DLfMOkhyEjR7Lxvf5hhRgg/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLSfpN6taChHndxku43F0CK0xuh_Hb2xo1T8ixd4crwfCQ8wJHw/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLScGh5SvWNMR5KbL-VXV5V03L349b4Byo_ENY0Yk2ehe2oYoLA/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLSdh6stv_g1AaTEqiDrfPuTQhGjS5hgdNVAIWJsZYnS4YBW-Qw/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLSelXv2qzKMxGXhtAOJonGkB_8tCzDwGNp4wRjws1KBwFAT8Dw/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLSdDobGaD5VHldn1iqrcR6UAMiI-XV8mlsZZ1ZE6VJ6MF6NRlg/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLScsUvX-Mavx0oRa0A16ab4eV1Ew3iYuNKrBCaOmnyN1M3RpRw/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLSdoRb2YJ12-t4UShcS0KL7x8vG2e-UooeIuhfsrzJ79S_ICag/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLSfvEmWg4ETE-cnidYO16WQrmq6BAIPsLtjpbW4V3H-p83cluQ/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLSfPkGKEU4OSWa1FXfYGWGdWb-qVoNHBQK33wRDbjxc_WsJ7JA/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLSfPkGKEU4OSWa1FXfYGWGdWb-qVoNHBQK33wRDbjxc_WsJ7JA/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLSdmx17xumoN691QpHqXIFT2z81gjZctBkhZQquyxLVGb8aNBQ/viewform?usp=sharing&ouid=103083541808217156157",
+    "https://docs.google.com/forms/d/e/1FAIpQLScHsXXz91Rp-tczK7kJzODsZqAyMiwyvBiRjK9SPO8kyXns-A/viewform?usp=sharing&ouid=103083541808217156157"
+        ];
+
+        // Función que elige uno al azar y redirige
+        window.onload = function() {
+            const indiceAleatorio = Math.floor(Math.random() * formularios.length);
+            window.location.replace(formularios[indiceAleatorio]);
+        };
+    </script>
+</head>
+<body>
+    <p>Redirigiendo al formulario...</p>
+</body>
+</html>
